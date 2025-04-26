@@ -1,0 +1,18 @@
+mkdir curso-git-embarcatech
+cd curso-git-embarcatech/
+git init
+git config user.name "Jéssica Oliveira"
+git config user.email "jessica.melo.oliveira.2005@gmail.com"
+
+# arquivo nome-matricula.txt criado e editado
+
+git add nome-matricula.txt
+git commit -m "Arquivo nome-matricula.txt adicionado"
+git remote add origin https://github.com/jessicamelooliveira/curso-git-embarcatech.git
+git push -u origin master
+
+# arquivo lista-comandos.txt criado e editado
+
+git add lista-comandos.txt
+git commit -m "Arquivo lista-comandos.txt adicionado"
+git push -u origin master
